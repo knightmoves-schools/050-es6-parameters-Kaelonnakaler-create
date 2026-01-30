@@ -1,7 +1,8 @@
-let calculateTotal (a, b){
-  return a + b;
+function calculateTotal(subtotal,shipping = 2.50){
+  return subtotal + shipping;
 };
-let printTopThreeHeadlines (4)
-return value[0] + value[1] + value[2.50];
+function printTopThreeHeadlines(...headlines) {
+return headlines.slice(0,3).join('\n');
+};
 
-document.getElementById("result").innerHTML = result;
+
